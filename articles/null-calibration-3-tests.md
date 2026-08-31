@@ -3,7 +3,7 @@ title: "AIに100通り試させたら、効果ゼロなのに5個が「有意」
 emoji: "🎯"
 type: "tech"
 topics: ["statistics", "abtesting", "python", "ai", "データ分析"]
-published: false
+published: true
 ---
 
 :::message
