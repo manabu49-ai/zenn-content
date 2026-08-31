@@ -1,5 +1,5 @@
 ---
-title: "AIに100通り試させたら、効果ゼロなのに5個が「有意」だった"
+title: AIに100通り試させたら、効果ゼロなのに5個が「有意」だった
 tags:
   - Python
   - 統計
@@ -7,11 +7,13 @@ tags:
   - AI
   - データ分析
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-09-01T01:49:40+09:00'
+id: 397a018948e1ab7ef29e
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 > この記事は note / Zenn にも同じ内容で公開しています。
