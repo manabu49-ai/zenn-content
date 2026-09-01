@@ -7,11 +7,13 @@ tags:
   - AI
   - 個人開発
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-09-01T18:17:43+09:00'
+id: 2598a30d5140e4445ab6
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 AIエージェントに仕事を任せる、という話が増えています。
