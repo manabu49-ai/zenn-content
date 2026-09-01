@@ -1,11 +1,11 @@
 ---
 title: AIに100通り試させたら、効果ゼロなのに5個が「有意」だった
 tags:
-  - Python
-  - 統計
-  - ABテスト
+  - AIエージェント
   - AI
-  - データ分析
+  - 生成AI
+  - Python
+  - ABテスト
 private: false
 updated_at: '2026-09-01T01:49:40+09:00'
 id: 397a018948e1ab7ef29e
