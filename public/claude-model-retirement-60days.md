@@ -7,11 +7,13 @@ tags:
   - AI
   - 個人開発
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-09-01T21:01:43+09:00'
+id: bc2a7be2a6ee4ceb6185
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 公式のモデル提供終了ページを見ていて、読み間違えかけました。
