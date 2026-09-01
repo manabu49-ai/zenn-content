@@ -16,7 +16,7 @@ posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
 
-> この記事は note / Zenn にも同じ内容で公開しています。
+> この記事は Zenn にも同じ内容で公開しています（筆者本人による転載）。
 
 > この記事の表は、すべて記事末尾のスクリプトの出力です。外部データは使っていません。乱数だけで動きます。
 
