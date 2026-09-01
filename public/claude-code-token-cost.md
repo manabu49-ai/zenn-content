@@ -1,5 +1,5 @@
 ---
-title: Claude Code のトークン消費を実測したら、1ターン23万トークンだった
+title: Claude Code のトークン使用量を実測したら1ターン23万 ― 節約に効いたのは「セッションを切る」だった
 tags:
   - ClaudeCode
   - AIエージェント
