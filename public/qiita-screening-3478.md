@@ -1,5 +1,5 @@
 ---
-title: Qiitaで何が読まれるかを3,478本から探した ― 106通り掃いて、残ったのは6つだけだった
+title: 'Qiitaで何が読まれるかを3,478本から探した ― 106通り掃いて、残ったのは6つだけだった'
 tags:
   - ClaudeCode
   - AIエージェント
@@ -7,11 +7,13 @@ tags:
   - AI
   - 個人開発
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-09-03T07:31:38+09:00'
+id: d78a5aeaecf8d7f3f20b
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 自分の記事が読まれなかったので、**Qiita の記事3,478本を集めて、何が読まれる記事の特徴なのかを数えました。**
