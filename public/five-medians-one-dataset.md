@@ -7,11 +7,13 @@ tags:
   - AI
   - データ分析
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-09-04T14:12:28+09:00'
+id: dc699a8458b129d6be39
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 2つのAIエージェントに、同じデータベースを渡して、同じことを聞きました。
