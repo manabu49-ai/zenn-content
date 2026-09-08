@@ -1,0 +1,17 @@
+{
+  "_comment": "ホームページの設定。ここを書き換えて scripts/build_site.py を実行すると docs/ が再生成される。",
+
+  "base_url": "https://manabu49-ai.github.io/zenn-content",
+
+  "site_title": "manabu49-ai",
+  "site_tagline": "AIエージェントの「できました」を、実測して確かめる",
+  "site_description": "AIエージェントの出力を鵜呑みにせず、トークン量・的中率・統計的有意差を自分のログで実測した記録。Claude Code と AI 運用の検証ノート。",
+
+  "author_name": "manabu49-ai",
+  "author_bio": "AIエージェントに任せた作業の結果を、あとから数えて確かめています。うまくいった話より、思い込みが実測でひっくり返った話を書きます。",
+
+  "zenn_username": "",
+  "qiita_username": "",
+  "github_username": "manabu49-ai",
+  "x_username": ""
+}

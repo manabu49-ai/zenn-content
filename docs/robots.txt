@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manabu49-ai.github.io/zenn-content/sitemap.xml

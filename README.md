@@ -64,3 +64,58 @@ published: false     # ★既定は false。公開するときだけ true にす
 別 slug の**二重投稿**になる。
 
 **GitHub 連携は 004 から始める。**
+
+---
+
+## ホームページ（GitHub Pages）
+
+```
+docs/                    公開されるサイト本体（自動生成）
+scripts/build_site.py    生成スクリプト
+site.config.json         サイト名・URL・各サービスのユーザー名
+```
+
+**Zenn が読むのは `articles/` と `images/` だけ。`docs/` を置いても同期には影響しない。**
+
+### 更新のしかた
+
+```
+1  site.config.json を編集する（プロフィール文・ユーザー名など）
+2  python3 scripts/build_site.py     → docs/index.html と sitemap.xml が再生成される
+3  git commit && git push            → 数分で公開URLに反映される
+```
+
+記事一覧は `articles/*.md`（`published: true`）と `public/*.md`（Qiita 投稿済み）から自動で作られる。
+**記事を足したら 2 を実行し直す。**手で `docs/index.html` を編集しても次の生成で消える。
+
+### 公開URLを有効にする（最初の一回だけ）
+
+```
+GitHub → Settings → Pages
+  Source  : Deploy from a branch
+  Branch  : main  /  フォルダは  /docs
+  Save
+```
+
+数分後に `https://manabu49-ai.github.io/zenn-content/` が開く。
+
+### 検索に載せる
+
+```
+1  Google Search Console に上記URLを登録する（所有権の確認はDNSではなくHTMLタグで可）
+2  サイトマップに  sitemap.xml  を送信する
+3  インデックス登録はリクエストしてから数日〜数週間かかる
+```
+
+**Yahoo! JAPAN の検索結果は Google のインデックスを使っている。**
+**Google に載れば Yahoo! にも載る。Yahoo! 向けの個別作業は要らない。**
+
+### 注意
+
+```
+・robots.txt はドメイン直下しか読まれない
+  → /zenn-content/robots.txt は無視される（既定が「全許可」なので実害はない）
+・ルートURL（https://manabu49-ai.github.io/）にしたい場合は
+  manabu49-ai.github.io という名前の別リポジトリを作り、docs/ の中身をそこに移す
+  そのときは site.config.json の base_url も直す
+```

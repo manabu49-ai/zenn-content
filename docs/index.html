@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>manabu49-ai | AIエージェントの「できました」を、実測して確かめる</title>
+<meta name="description" content="AIエージェントの出力を鵜呑みにせず、トークン量・的中率・統計的有意差を自分のログで実測した記録。Claude Code と AI 運用の検証ノート。">
+<link rel="canonical" href="https://manabu49-ai.github.io/zenn-content/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://manabu49-ai.github.io/zenn-content/">
+<meta property="og:title" content="manabu49-ai | AIエージェントの「できました」を、実測して確かめる">
+<meta property="og:description" content="AIエージェントの出力を鵜呑みにせず、トークン量・的中率・統計的有意差を自分のログで実測した記録。Claude Code と AI 運用の検証ノート。">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='14'>📐</text></svg>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://manabu49-ai.github.io/zenn-content/",
+  "name": "manabu49-ai",
+  "description": "AIエージェントの出力を鵜呑みにせず、トークン量・的中率・統計的有意差を自分のログで実測した記録。Claude Code と AI 運用の検証ノート。",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "manabu49-ai",
+    "description": "AIエージェントに任せた作業の結果を、あとから数えて確かめています。うまくいった話より、思い込みが実測でひっくり返った話を書きます。",
+    "url": "https://manabu49-ai.github.io/zenn-content/",
+    "sameAs": [
+      "https://github.com/manabu49-ai"
+    ]
+  }
+}
+</script>
+</head>
+<body>
+<header class="hero">
+  <p class="eyebrow">AIエージェントの「できました」を、実測して確かめる</p>
+  <h1>manabu49-ai</h1>
+  <p class="bio">AIエージェントに任せた作業の結果を、あとから数えて確かめています。うまくいった話より、思い込みが実測でひっくり返った話を書きます。</p>
+  <ul class="links"><li><a href="https://github.com/manabu49-ai" rel="me">GitHub</a></li></ul>
+</header>
+
+<main>
+  <section aria-labelledby="articles-heading">
+    <h2 id="articles-heading">記事</h2>
+    <ul class="articles">
+      <li class="article">
+        <h3 class="article-title"><a href="https://qiita.com/items/dc699a8458b129d6be39"><span class="emoji" aria-hidden="true">📝</span>同じデータを2つのAIに測らせたら、中央値が5通り出た ― 全部、計算は正しかった</a></h3>
+        <p class="article-meta"><span class="source">Qiita</span><time datetime="2026-09-04">2026-09-04</time></p>
+        <ul class="topics"><li class="topic">ClaudeCode</li><li class="topic">AIエージェント</li><li class="topic">生成AI</li><li class="topic">AI</li><li class="topic">データ分析</li></ul>
+      </li>
+      <li class="article">
+        <h3 class="article-title"><a href="https://qiita.com/items/acd01b13abe9c8cbea16"><span class="emoji" aria-hidden="true">📝</span>AIを触り始めて3日で24時間動くものを作った ― そして8回間違えた</a></h3>
+        <p class="article-meta"><span class="source">Qiita</span><time datetime="2026-09-03">2026-09-03</time></p>
+        <ul class="topics"><li class="topic">ClaudeCode</li><li class="topic">AIエージェント</li><li class="topic">生成AI</li><li class="topic">AI</li><li class="topic">個人開発</li></ul>
+      </li>
+      <li class="article">
+        <h3 class="article-title"><a href="https://qiita.com/items/d78a5aeaecf8d7f3f20b"><span class="emoji" aria-hidden="true">📝</span>Qiitaで何が読まれるかを3,478本から探した ― 106通り掃いて、残ったのは6つだけだった</a></h3>
+        <p class="article-meta"><span class="source">Qiita</span><time datetime="2026-09-03">2026-09-03</time></p>
+        <ul class="topics"><li class="topic">ClaudeCode</li><li class="topic">AIエージェント</li><li class="topic">生成AI</li><li class="topic">AI</li><li class="topic">個人開発</li></ul>
+      </li>
+      <li class="article">
+        <h3 class="article-title"><a href="https://qiita.com/items/397a018948e1ab7ef29e"><span class="emoji" aria-hidden="true">📝</span>AIに100通り試させたら、効果ゼロなのに5個が「有意」だった</a></h3>
+        <p class="article-meta"><span class="source">Qiita</span><time datetime="2026-09-02">2026-09-02</time></p>
+        <ul class="topics"><li class="topic">AIエージェント</li><li class="topic">AI</li><li class="topic">生成AI</li><li class="topic">Python</li><li class="topic">ABテスト</li></ul>
+      </li>
+      <li class="article">
+        <h3 class="article-title"><a href="https://qiita.com/items/2598a30d5140e4445ab6"><span class="emoji" aria-hidden="true">📝</span>Claude Code のトークン使用量を実測したら1ターン23万 ― 節約に効いたのは「セッションを切る」だった</a></h3>
+        <p class="article-meta"><span class="source">Qiita</span><time datetime="2026-09-02">2026-09-02</time></p>
+        <ul class="topics"><li class="topic">ClaudeCode</li><li class="topic">AIエージェント</li><li class="topic">生成AI</li><li class="topic">AI</li><li class="topic">個人開発</li></ul>
+      </li>
+      <li class="article">
+        <h3 class="article-title"><a href="https://qiita.com/items/bc2a7be2a6ee4ceb6185"><span class="emoji" aria-hidden="true">📝</span>Claude のモデル提供終了、猶予は告知から約60日 ― 過去9回を数えて、手元を検査するスクリプトを書いた</a></h3>
+        <p class="article-meta"><span class="source">Qiita</span><time datetime="2026-09-02">2026-09-02</time></p>
+        <ul class="topics"><li class="topic">ClaudeCode</li><li class="topic">AIエージェント</li><li class="topic">生成AI</li><li class="topic">AI</li><li class="topic">個人開発</li></ul>
+      </li>
+      <li class="article">
+        <h3 class="article-title"><a href="https://qiita.com/items/9b947604d3dc4958fa36"><span class="emoji" aria-hidden="true">📝</span>仕様書は2日前から手元にあった ― 読まずに実装した対処が、データを永久に失う設計だった</a></h3>
+        <p class="article-meta"><span class="source">Qiita</span><time datetime="2026-09-02">2026-09-02</time></p>
+        <ul class="topics"><li class="topic">ClaudeCode</li><li class="topic">AIエージェント</li><li class="topic">生成AI</li><li class="topic">AI</li><li class="topic">個人開発</li></ul>
+      </li>
+      <li class="article">
+        <h3 class="article-title"><a href="https://qiita.com/items/5c7506c94b5be58c040e"><span class="emoji" aria-hidden="true">📝</span>57分間、死んだジョブを誰も見ていなかった ― AIエージェントの見張りを機械に渡す</a></h3>
+        <p class="article-meta"><span class="source">Qiita</span><time datetime="2026-09-02">2026-09-02</time></p>
+        <ul class="topics"><li class="topic">ClaudeCode</li><li class="topic">AIエージェント</li><li class="topic">AI</li><li class="topic">生成AI</li><li class="topic">個人開発</li></ul>
+      </li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 manabu49-ai</p>
+  <p class="generated">このページは <code>scripts/build_site.py</code> で生成しています。</p>
+</footer>
+</body>
+</html>
