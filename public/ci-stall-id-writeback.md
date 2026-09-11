@@ -7,11 +7,13 @@ tags:
   - Qiita
   - 個人開発
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-09-11T09:00:23+09:00'
+id: 95b4e2ca615162390a5e
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 記事を push すると自動で投稿される仕組みを作って、しばらく使っていました。
